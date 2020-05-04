@@ -8,15 +8,9 @@
 
 import OAuthSwift
 
-#if os(iOS)
-    import UIKit
-    import WebKit
-    typealias WebView = WKWebView
-#elseif os(OSX)
-    import AppKit
-    import WebKit
-    typealias WebView = WKWebView
-#endif
+import UIKit
+import WebKit
+typealias WebView = WKWebView
 
 class WebViewController: OAuthWebViewController {
 
@@ -60,10 +54,9 @@ class WebViewController: OAuthWebViewController {
 extension WebViewController: WKNavigationDelegate {
     
     func webView(_ webView: WKWebView, decidePolicyFor navigationAction: WKNavigationAction, decisionHandler: @escaping (WKNavigationActionPolicy) -> Void) {
-        
-        // here we handle internally the callback url and call method that call handleOpenURL (not app scheme used)
-        if let url = navigationAction.request.url , url.scheme == "oauth-swift" {
-            AppDelegate.sharedInstance.applicationHandle(url: url)
+
+        if let url = navigationAction.request.url , url.isCallbackURL {
+            OAuthSwift.handle(url: url)
             decisionHandler(.cancel)
             
             self.dismissWebViewController()
