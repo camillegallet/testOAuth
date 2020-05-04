@@ -183,7 +183,7 @@ extension ViewController {
         
         let _ = internalWebViewController.webView
         // init now web view handler
-        let param = ["consumerSecret": "1448b6616f2947919657805f8e8e46c2", "name": "Spotify", "consumerKey": "6bc86e063ab9416b86d8e17a4b3d2727"]
+        let param = ["consumerSecret": "", "name": "Spotify", "consumerKey": ""]//Add the values to test
         doOAuthSpotify(param)
         //doAuthService(service:"Kronos")
     }
