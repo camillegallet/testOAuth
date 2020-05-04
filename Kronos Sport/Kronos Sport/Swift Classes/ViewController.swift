@@ -185,7 +185,6 @@ extension ViewController {
         // init now web view handler
         let param = ["consumerSecret": "", "name": "Spotify", "consumerKey": ""]//Add the values to test
         doOAuthSpotify(param)
-        //doAuthService(service:"Kronos")
     }
     
     // MARK: utility methods
