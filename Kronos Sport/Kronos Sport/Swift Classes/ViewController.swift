@@ -72,8 +72,8 @@ extension ViewController {
     func doOAuthTest(_ serviceParameters: [String:String]){
         print(serviceParameters)
         let oauthswift = OAuth2Swift(
-            consumerKey:    "YbCkiZe3-uAKj-XeugzG1WTu",
-            consumerSecret: "_P68mzofmEDhNZHu7LXFGUJWAXcML98VYSuVRv29NFUSAa01",
+            consumerKey:    "",
+            consumerSecret: "",
             authorizeUrl:   "https://authorization-server.com/authorize",
             responseType:   "code"
         )
