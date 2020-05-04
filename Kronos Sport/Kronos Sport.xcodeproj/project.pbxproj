@@ -15,7 +15,6 @@
 		034D4069245CDFE700BE3F19 /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034D4064245CDFE700BE3F19 /* Storyboards.swift */; };
 		034D406B245D8A5000BE3F19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 034D406A245D8A5000BE3F19 /* LaunchScreen.storyboard */; };
 		034D406F245D8A8F00BE3F19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 034D406E245D8A8F00BE3F19 /* Main.storyboard */; };
-		037CC2BC21F755810094D9B0 /* logo_IOS.png in Resources */ = {isa = PBXBuildFile; fileRef = 037CC2BB21F755810094D9B0 /* logo_IOS.png */; };
 		037CC2D121F761F10094D9B0 /* X.png in Resources */ = {isa = PBXBuildFile; fileRef = 037CC2C121F761F00094D9B0 /* X.png */; };
 		037CC2D221F761F10094D9B0 /* 11_ipadPro.png in Resources */ = {isa = PBXBuildFile; fileRef = 037CC2C221F761F00094D9B0 /* 11_ipadPro.png */; };
 		037CC2D321F761F10094D9B0 /* SE.png in Resources */ = {isa = PBXBuildFile; fileRef = 037CC2C321F761F00094D9B0 /* SE.png */; };
@@ -46,10 +45,10 @@
 		037CC2F821F76ECD0094D9B0 /* iPad-Ios72x-.png in Resources */ = {isa = PBXBuildFile; fileRef = 037CC2F721F76ECD0094D9B0 /* iPad-Ios72x-.png */; };
 		037CC2FA21F76F620094D9B0 /* ios56-1xL.png in Resources */ = {isa = PBXBuildFile; fileRef = 037CC2F921F76F620094D9B0 /* ios56-1xL.png */; };
 		037CC2FC21F76FE90094D9B0 /* ios56-2xL.png in Resources */ = {isa = PBXBuildFile; fileRef = 037CC2FB21F76FE80094D9B0 /* ios56-2xL.png */; };
+		037F98A5246033410050B3AA /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037F98A4246033410050B3AA /* FormViewController.swift */; };
 		03B0946C224BE3FC00823E35 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03B0946B224BE3FC00823E35 /* WebKit.framework */; };
 		03D3BE33245DED9400DDA168 /* OAuthSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03D3BE26245DED6A00DDA168 /* OAuthSwift.framework */; };
 		03D3BE34245DED9400DDA168 /* OAuthSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 03D3BE26245DED6A00DDA168 /* OAuthSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		03D3BE7F245EFFB200DDA168 /* TegKeychainConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D3BE7E245EFFB200DDA168 /* TegKeychainConstants.swift */; };
 		03D8AF1B21F2637F003AD59F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D8AF1A21F2637F003AD59F /* AppDelegate.swift */; };
 		03D8AF1D21F2637F003AD59F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D8AF1C21F2637F003AD59F /* ViewController.swift */; };
 		03D8AF2221F26381003AD59F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03D8AF2121F26381003AD59F /* Assets.xcassets */; };
@@ -130,7 +129,6 @@
 		034D4064245CDFE700BE3F19 /* Storyboards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
 		034D406A245D8A5000BE3F19 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		034D406E245D8A8F00BE3F19 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		037CC2BB21F755810094D9B0 /* logo_IOS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_IOS.png; path = ../../../../Pictures/Kronos/logo_IOS.png; sourceTree = "<group>"; };
 		037CC2C121F761F00094D9B0 /* X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = X.png; sourceTree = "<group>"; };
 		037CC2C221F761F00094D9B0 /* 11_ipadPro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11_ipadPro.png; sourceTree = "<group>"; };
 		037CC2C321F761F00094D9B0 /* SE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SE.png; sourceTree = "<group>"; };
@@ -161,10 +159,9 @@
 		037CC2F721F76ECD0094D9B0 /* iPad-Ios72x-.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad-Ios72x-.png"; sourceTree = "<group>"; };
 		037CC2F921F76F620094D9B0 /* ios56-1xL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ios56-1xL.png"; sourceTree = "<group>"; };
 		037CC2FB21F76FE80094D9B0 /* ios56-2xL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ios56-2xL.png"; sourceTree = "<group>"; };
+		037F98A4246033410050B3AA /* FormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
 		03B0946B224BE3FC00823E35 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		03D3BE1B245DED6A00DDA168 /* OAuthSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OAuthSwift.xcodeproj; path = "OAuthSwift-master/OAuthSwift.xcodeproj"; sourceTree = "<group>"; };
-		03D3BE7B245EFFA700DDA168 /* TegKeychainConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TegKeychainConstants.swift; sourceTree = "<group>"; };
-		03D3BE7E245EFFB200DDA168 /* TegKeychainConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TegKeychainConstants.swift; path = "../../../../../Downloads/keychain-swift-master/Sources/TegKeychainConstants.swift"; sourceTree = "<group>"; };
 		03D8AF1721F2637F003AD59F /* Kronos Sport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kronos Sport.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03D8AF1A21F2637F003AD59F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03D8AF1C21F2637F003AD59F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -213,10 +210,9 @@
 				03D8AF1A21F2637F003AD59F /* AppDelegate.swift */,
 				034D4060245CDFE700BE3F19 /* Constants.swift */,
 				034D4061245CDFE700BE3F19 /* NavigationController.swift */,
+				037F98A4246033410050B3AA /* FormViewController.swift */,
 				034D405E245CDF2C00BE3F19 /* Services.swift */,
 				034D4064245CDFE700BE3F19 /* Storyboards.swift */,
-				03D3BE7B245EFFA700DDA168 /* TegKeychainConstants.swift */,
-				03D3BE7E245EFFB200DDA168 /* TegKeychainConstants.swift */,
 				03D8AF1C21F2637F003AD59F /* ViewController.swift */,
 				034D405C245CDEAC00BE3F19 /* WebViewController.swift */,
 			);
@@ -296,7 +292,6 @@
 				03D3BE78245EFF8900DDA168 /* Swift Classes */,
 				03D8AF2121F26381003AD59F /* Assets.xcassets */,
 				03D8AF2621F26381003AD59F /* Info.plist */,
-				037CC2BB21F755810094D9B0 /* logo_IOS.png */,
 			);
 			path = "Kronos Sport";
 			sourceTree = "<group>";
@@ -443,7 +438,6 @@
 				037CC2D121F761F10094D9B0 /* X.png in Resources */,
 				037CC2E621F76B130094D9B0 /* iPhone9+L.png in Resources */,
 				03D8AF2221F26381003AD59F /* Assets.xcassets in Resources */,
-				037CC2BC21F755810094D9B0 /* logo_IOS.png in Resources */,
 				034D4068245CDFE700BE3F19 /* Services.plist in Resources */,
 				037CC2E221F7693B0094D9B0 /* iPad-Ios71x.png in Resources */,
 				037CC2D621F761F10094D9B0 /* 8Plus.png in Resources */,
@@ -464,7 +458,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				034D405D245CDEAC00BE3F19 /* WebViewController.swift in Sources */,
-				03D3BE7F245EFFB200DDA168 /* TegKeychainConstants.swift in Sources */,
+				037F98A5246033410050B3AA /* FormViewController.swift in Sources */,
 				034D405F245CDF2C00BE3F19 /* Services.swift in Sources */,
 				034D4069245CDFE700BE3F19 /* Storyboards.swift in Sources */,
 				034D4066245CDFE700BE3F19 /* NavigationController.swift in Sources */,
